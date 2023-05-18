@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #123456;
+    color: #fff;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a:active,nav ul li a:hover {
+  color: red; 
+}
+
+nav ul li a.visited,
+nav ul li a:hover{
+  color: blue;
+}
+.logo{
+    position: relative;
+    height: 35px; 
+  }
+  
+.image{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+   position: relative;
+    top: 60px;
+}
+.search-container {
+    position: relative;
+    top: 20px;
+    right: 200px;
+    display: inline-block;
+  }
+  
+.search-container input[type="text"] {
+    padding-right: 30px;
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+  
+.search-container button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+  
+.search-container i {
+    color: #123456; 
+}
+.sidebar {
+    position: relative;
+    top: -10px;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+  
+.menu {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+  
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+}
+  
+.menu-item:hover {
+    background-color: #ddd;
+}
+  
+.menu-item.active {
+    background-color: #ccc;
+  }
+  
+ 
+  
+  
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+}
